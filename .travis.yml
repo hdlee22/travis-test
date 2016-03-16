@@ -1,8 +1,8 @@
 language: objective-c
 before_install:
-    - brew update
-    - brew install xctool
-    - brew install swiftlint
-script: 
-	- xctool -workspace travis-test.xcworkspace -scheme travis-test -sdk iphonesimulator build test
-	- swiftlint
+  - brew update
+  - brew install xctool
+  - brew install swiftlint
+script:
+  - bundle exec rake build
+  - bundle exec rake builddoc
