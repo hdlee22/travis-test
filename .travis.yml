@@ -1,9 +1,8 @@
 language: objective-c
-branches:
- only:
- - master
-
-xcode_workspace: travis-test.xcworkspace
-xcode_scheme: travis-test
-osx_image: xcode7.2
-xcode_sdk: iphonesimulator9.2
+before_install:
+    - brew update
+    - brew install xctool
+    - brew install swiftlint
+script: 
+	- xctool -workspace travis-test.xcworkspace -scheme travis-test -sdk iphonesimulator build test
+	- swiftlint
