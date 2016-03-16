@@ -9,10 +9,3 @@
 /// cocoapods
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/AFNetworkActivityIndicatorManager.h>
-#import <DACircularProgress/DACircularProgressView.h>
-#import <iRate/iRate.h>
-#import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
-#import <JVFloatLabeledTextField/JVFloatLabeledTextView.h>
-#import <SDWebImage/UIImageView+WebCache.h>
-#import <SDWebImage/UIButton+WebCache.h>
-#import <TTTAttributedLabel/TTTAttributedLabel.h>
