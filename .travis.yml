@@ -1,4 +1,9 @@
 language: objective-c
-script:
-	- xctool -workspace travis-test.xcworkspace travis-test -sdk iphonesimulator
-	- xctoll test -workspace travis-test.xcworkspace travis-testTests -sdk iphonesimulator
+branches:
+ only:
+ - master
+
+xcode_workspace: travis-test.xcworkspace
+xcode_scheme: travis-test
+osx_image: xcode7.2
+xcode_sdk: iphonesimulator9.2
