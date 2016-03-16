@@ -1,16 +1,12 @@
 language: objective-c
 cache: cocoapods
-osx_image: xcode7.2 #2
-xcode_workspace: travis-test.xcworkspace #3
-xcode_scheme: travis-test #4
-xcode_sdk: iphonesimulator9.2 #5
 
 before_install:
-  - brew update
-  - brew outdated xctool || brew upgrade xctool
-  - brew outdated swiftlint || brew upgrade swiftlint || brew install swiftlint
+  # - brew update
+  # - brew outdated xctool || brew upgrade xctool
+  - ./.travis-before-install.sh
 # before_script:
 #   - swiftlint
 script:
   - swiftlint
-  # - xctool -workspace travis-test.xcworkspace -scheme travis-test -sdk iphonesimulator build test
+  - xctool -workspace travis-test.xcworkspace -scheme travis-test -sdk iphonesimulator9.2 build test
