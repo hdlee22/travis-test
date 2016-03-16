@@ -21,9 +21,6 @@
 		67A615DC1C99084900C7A1D0 /* libDACircularProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615D31C99084900C7A1D0 /* libDACircularProgress.a */; };
 		67A615DD1C99084900C7A1D0 /* libiRate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615D41C99084900C7A1D0 /* libiRate.a */; };
 		67A615DE1C99084900C7A1D0 /* libJVFloatLabeledTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615D51C99084900C7A1D0 /* libJVFloatLabeledTextField.a */; };
-		67A615DF1C99084900C7A1D0 /* libJXLS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615D61C99084900C7A1D0 /* libJXLS.a */; };
-		67A615E01C99084900C7A1D0 /* liblibPhoneNumber-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615D71C99084900C7A1D0 /* liblibPhoneNumber-iOS.a */; };
-		67A615E11C99084900C7A1D0 /* libMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615D81C99084900C7A1D0 /* libMagicalRecord.a */; };
 		67A615E21C99084900C7A1D0 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615D91C99084900C7A1D0 /* libSDWebImage.a */; };
 		67A615E31C99084900C7A1D0 /* libTTTAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A615DA1C99084900C7A1D0 /* libTTTAttributedLabel.a */; };
 		9A2FEB8D3B83B9AFDF02F104 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D507EC6F58FB8CAD359D2A53 /* libPods.a */; };
@@ -85,9 +82,6 @@
 				67A615DC1C99084900C7A1D0 /* libDACircularProgress.a in Frameworks */,
 				67A615DD1C99084900C7A1D0 /* libiRate.a in Frameworks */,
 				67A615DE1C99084900C7A1D0 /* libJVFloatLabeledTextField.a in Frameworks */,
-				67A615DF1C99084900C7A1D0 /* libJXLS.a in Frameworks */,
-				67A615E01C99084900C7A1D0 /* liblibPhoneNumber-iOS.a in Frameworks */,
-				67A615E11C99084900C7A1D0 /* libMagicalRecord.a in Frameworks */,
 				67A615E21C99084900C7A1D0 /* libSDWebImage.a in Frameworks */,
 				67A615E31C99084900C7A1D0 /* libTTTAttributedLabel.a in Frameworks */,
 				277B46261B57B1463E039222 /* libPods.a in Frameworks */,
