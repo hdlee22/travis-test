@@ -4,7 +4,7 @@ cache: cocoapods
 before_install:
   # - brew update
   # - brew outdated xctool || brew upgrade xctool
-  - ./.travis-before-install.sh
+  - brew install swiftlint
 # before_script:
 #   - swiftlint
 script:
